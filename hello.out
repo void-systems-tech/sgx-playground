@@ -1,0 +1,16 @@
+Host: Loading enclave: enclave_flags=0x00000001 (debug mode: ON, simulation mode: OFF)
+Hello world from the host
+Hello world from the enclave! The host says e = 2.718282
+Trying to allocate dynamic memory inside the enclave: 256x4096=1048576 bytes (1.00 MiB)
+Failed to allocate dynamic memory inside the enclave
+Trying to allocate dynamic memory inside the enclave: 255x4096=1044480 bytes (1.00 MiB)
+Failed to allocate dynamic memory inside the enclave
+Trying to allocate dynamic memory inside the enclave: 254x4096=1040384 bytes (0.99 MiB)
+Failed to allocate dynamic memory inside the enclave
+Trying to allocate dynamic memory inside the enclave: 253x4096=1036288 bytes (0.99 MiB)
+Failed to allocate dynamic memory inside the enclave
+Trying to allocate dynamic memory inside the enclave: 252x4096=1032192 bytes (0.98 MiB)
+Successfully allocated dynamic memory inside the enclave
+Freeing the allocated dynamic memory inside the enclave
+
+

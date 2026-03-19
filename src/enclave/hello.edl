@@ -1,0 +1,18 @@
+enclave {
+  from "openenclave/edl/syscall.edl" import *;
+  from "platform.edl" import *;
+
+  trusted {
+    public void enclave_hello();
+  };
+
+  untrusted {
+    void host_hello();
+    double host_get_const(char constant);
+  };
+};
+
+
+// vim: ts=2 sw=2 et:
+
+
